@@ -1,0 +1,25 @@
+{
+  "name": "alumni-management-system",
+  "version": "2.0.0",
+  "description": "Alumni Management System using Node.js, Express, EJS and MySQL",
+  "main": "app.js",
+  "scripts": {
+    "start": "node app.js",
+    "dev": "node --watch app.js",
+    "test": "node --check app.js"
+  },
+  "keywords": ["alumni", "management", "express", "mysql"],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+  "dependencies": {
+    "bcryptjs": "^2.4.3",
+    "dotenv": "^16.4.7",
+    "ejs": "^6.0.1",
+    "express": "^5.2.1",
+    "express-session": "^1.18.1",
+    "multer": "^2.4.0",
+    "mysql2": "^3.24.4",
+    "nodemailer": "^6.10.1"
+  }
+}
